@@ -13,7 +13,7 @@ berbagai fasilitas serta kegiatan yang dapat menunjang kegiatan belajar dan meng
 berharap siswa dapat tumbuh menjadi pribadi yang terus berkembang setiap harinya dengan
 didampingi oleh tenaga pendidik yang berpengalaman. 
 
-### halo ini test edit
+
 
 ## Visi
 
