@@ -11,7 +11,9 @@ Manggar, Kec. Balikpapan Timur, Kota Balikpapan. SMP Negeri 8 Balikpapan berkomi
 untuk menciptakan lingkungan pendidikan yang baik dan nyaman bagi siswa dengan
 berbagai fasilitas serta kegiatan yang dapat menunjang kegiatan belajar dan mengajar. Kami
 berharap siswa dapat tumbuh menjadi pribadi yang terus berkembang setiap harinya dengan
-didampingi oleh tenaga pendidik yang berpengalaman.
+didampingi oleh tenaga pendidik yang berpengalaman. 
+
+### halo ini test edit
 
 ## Visi
 
