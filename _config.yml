@@ -90,7 +90,7 @@ sliders:
 three-services:
   - logo: fas fa-laptop
     title: Fasilitas
-    image: /images/AulaSmpn8.jpg
+    image: /images/Pelatihan3.png
     link: /pages/fasilitas
     text: >
       Kami menawarkan fasilitas terbaik untuk mendukung kenyamanan dalam belajar
@@ -113,7 +113,7 @@ three-services:
       didampingi oleh tenaga pendidik yang berpengalaman.
   - logo: fas fa-campground
     title: Ekstrakurikler
-    image: /images/AulaSmpn8.jpg
+    image: /images/smpn8_new-foto/ekstra-basket.jpg
     link: /pages/ekstrakurikuler
     text: >
       Di sekolah kami, akademik bukanlah satu-satunya hal yang dapat dipelajari,
