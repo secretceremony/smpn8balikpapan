@@ -23,7 +23,7 @@ Berikut Fasilitas yang ada di Sekolah kami:
 | 8   | R. Kepsek                            | 21  | Taman                                    |
 | 9   | Toilet                               | 22  | Lapangan Bola Belakang                   |
 | 10  | R. Pertemuan                         | 23  | Kantin                                   |
-| 11  | Lab. IPA                             |  25   |    cahrging station                                   |
+| 11  | Lab. IPA                             |     |                                          |
 | 12  | Koperasi                             |     |                                          |
 | 13  | Kelas                                |     |
-| 24  | wifi                                |     |    
+ 
