@@ -33,4 +33,4 @@ Berikut adalah Jadwal Ekstrakurikuler SMPN 8 Balikpapan T.P 2023/ 2024
 | 13  | Bulutangkis              |
 | 14  | Paduan Suara             |
 | 15  | PIK-R                    |
-| 16  | E-Sport                    |
+
