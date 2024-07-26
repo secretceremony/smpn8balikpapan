@@ -186,11 +186,6 @@ employees-staff:
     img: /images/guru-staff/example.jpg
     subjects: -Menjaga Perpustakaan
     
-  - status: penjaga kantin
-    name: Mabk, S.Pd.T.
-    img: /images/guru-staff/Ansel.jpeg
-    subjects: -Menjaga Keamanan kantin
-
 #----------------------------------End-Halaman_Staff----------#
 
 #----------------------------------Halaman_Guru----------#
