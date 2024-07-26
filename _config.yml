@@ -303,6 +303,12 @@ sekolah-penggerak:
          - image: /images/ex-2.jpg
          - image: /images/ex-1.jpg
          - image: /images/img6.png
+      - tahun: 2025
+        deskripsi: lorem ipsum dolor sit ammte cons quen or ? ont en fave dot musl
+        images:
+         - image: /images/ex-1.jpg
+         - image: /images/ex-2.jpg
+         - image: /images/img2.png
 
   - nama-kegiatan: Project 2
     posts:
