@@ -278,17 +278,6 @@ employees-guru:
         name: Ansel, S.Pd.T.
         img: /images/guru-staff/example.jpg
         subjects: -Matematika-Bahasa Inggris-Bahasa Indonesia
-
-  - title: menggambar
-    guru:
-      - status: Guru
-        name: Ansel, S.Pd.T.
-        img: /images/guru-staff/Raisha.jpeg
-        subjects: -Matematika-Bahasa Inggris-Bahasa Indonesia
-      - status: Guru
-        name: putu, S.Pd.T.
-        img: /images/guru-staff/Putu.jpeg
-        subjects: -Matematika-Bahasa Inggris-Bahasa Indonesia
 #----------------------------------End-Halaman_Guru----------#
 
 
