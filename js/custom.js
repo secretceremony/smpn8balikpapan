@@ -451,3 +451,38 @@
 	
 }(jQuery));
 ;
+
+function initializeSearch() {
+    const searchInput = document.getElementById('searchInput');
+    searchInput.addEventListener('input', handleSearch);
+}
+
+function handleSearch() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+    const employeeCards = document.getElementsByClassName('employee-card');
+    const noResults = document.querySelector('.no-results');
+    let visibleCount = 0;
+
+    Array.from(employeeCards).forEach(card => {
+        const status = card.getAttribute('data-status');
+        const name = card.getAttribute('data-name');
+        const subjects = card.getAttribute('data-subjects');
+        
+        if (status.includes(searchTerm) || 
+            name.includes(searchTerm) || 
+            (subjects && subjects.includes(searchTerm))) {
+            card.classList.remove('hidden');
+            visibleCount++;
+        } else {
+            card.classList.add('hidden');
+        }
+    });
+
+    if (visibleCount === 0) {
+        noResults.classList.remove('hidden');
+    } else {
+        noResults.classList.add('hidden');
+    }
+}
+
+document.addEventListener('DOMContentLoaded', initializeSearch);

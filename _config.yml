@@ -191,8 +191,6 @@ employees-staff:
 
 #----------------------------------Halaman_Guru----------#
 employees-guru:
-  - title: Matematika
-    guru:
       - status: Guru
         name: Ansel, S.Pd.T.
         img: /images/guru-staff/example.jpg
@@ -221,64 +219,7 @@ employees-guru:
         name: Bagas6, S.Kom, M.Kom
         img: /images/guru-staff/example.jpg
         subjects: -Matematika
-  - title: Bahasa Indonesia
-    guru:
-      - status: Guru
-        name: Ansel, S.Pd.T.
-        img: /images/guru-staff/example.jpg
-        subjects: -Matematika-Bahasa Inggris-Bahasa Indonesia
-      - status: Guru
-        name: Raisha, S.Pd.ML
-        img: /images/guru-staff/example.jpg
-        subjects: -Bahasa Indonesia-IPS
-  - title: IPA
-    guru:
-      - status: Guru
-        name: Dr. Putu, M.Pd.I
-        img: /images/guru-staff/example.jpg
-        subjects: -IPA-Agama Islam
-      - status: Guru
-        name:  Raisha0, S.Pd.ML
-        img: /images/guru-staff/example.jpg
-        subjects: -IPA
-      - status: Guru
-        name:  Raisha1, S.Pd.ML
-        img: /images/guru-staff/example.jpg
-        subjects: -IPA
-      - status: Guru
-        name:  Raisha2, S.Pd.ML
-        img: /images/guru-staff/example.jpg
-        subjects: -IPA
-      - status: Guru
-        name:  Raisha3, S.Pd.ML
-        img: /images/guru-staff/example.jpg
-        subjects: -IPA
-  - title: Agama Islam
-    guru:
-      - status: Guru
-        name: Haqi, S.Pd.M.
-        img: /images/guru-staff/example.jpg
-        subjects: -Agama Islam-IPS
-      - status: Guru
-        name: Dr. Putu, M.Pd.I
-        img: /images/guru-staff/example.jpg
-        subjects: -IPA-Agama Islam
-  - title: IPS
-    guru:
-      - status: Guru
-        name: Haqi, S.Pd.M.
-        img: /images/guru-staff/example.jpg
-        subjects: -Agama Islam-IPS
-      - status: Guru
-        name: Raisha, S.Pd.ML
-        img: /images/guru-staff/example.jpg
-        subjects: -Bahasa Indonesia-IPS
-  - title: Bahasa Inggris
-    guru:
-      - status: Guru
-        name: Ansel, S.Pd.T.
-        img: /images/guru-staff/example.jpg
-        subjects: -Matematika-Bahasa Inggris-Bahasa Indonesia
+
 #----------------------------------End-Halaman_Guru----------#
 
 
