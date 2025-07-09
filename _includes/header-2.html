@@ -1,21 +1,32 @@
-<!-- LOADER -->
+<!-- =========================
+     PAGE LOADER SECTION
+     Displays a loading animation before the page is fully loaded
+========================= -->
 <div id="preloader">
   <div class="loader">
     <img src="{{ site.baseurl }}/images/loader.gif" alt="#" />
   </div>
 </div>
-<!-- end loader -->
-<!-- END LOADER -->
+<!-- =========================
+     END PAGE LOADER SECTION
+========================= -->
 
-<!-- Start header -->
+<!-- =========================
+     TOP HEADER BAR
+     Shows contact info (phone & email) and social media links
+========================= -->
 <div class="first-header container-fluid bg-dark px-5 d-lg-block d-md-block d-sm-block d-xl-block d-block">
   <div class="row gx-0 align-items-center" style="height: 45px;">
+      <!-- Contact Info: Phone and Email -->
       <div class="col-8 text-center text-lg-start mb-lg-0" id="responsv-topbar">
           <div class="d-flex flex-wrap">
               <p class="text-light font me-4 poppins-normal">
-                <i class="fas fa-phone-alt me-3"></i>{{site.phone}}<span><i class="fa fa-envelope me-3"></i>{{site.email}}</span></p>
+                <i class="fas fa-phone-alt me-3"></i>{{site.phone}}
+                <span><i class="fa fa-envelope me-3"></i>{{site.email}}</span>
+              </p>
           </div>
       </div>
+      <!-- Social Media Icons -->
       <div class="col-4 text-center text-lg-end" id="responsv-topbar1">
         <ul class="d-flex align-items-center justify-content-end">
           {% for menu in site.socmed %}
@@ -29,6 +40,67 @@
       </div>
   </div>
 </div>
+<!-- =========================
+     END TOP HEADER BAR
+========================= -->
+
+<!-- =========================
+     MAIN NAVBAR SECTION
+     Contains logo and main navigation menu with dropdowns
+========================= -->
+<div class="container-fluid position-relative p-0">
+  <nav
+    class="navbar navbar-expand-lg navbar-light nav-2 px-4 px-lg-5 py-3 py-lg-0"
+  >
+    <!-- Logo -->
+    <a href="{{site.baseurl}}/" class="navbar-brand p-0">
+      <h1 class="text-primary m-0 p-0">
+        <img src="{{ site.baseurl }}{{ site.logo-navbar }}" id="navbar-logo" alt="logo" style="height: 70px;">
+      </h1>
+      <!-- <img src="img/logo.png" alt="Logo"> -->
+    </a>
+    <!-- Navbar Toggler for Mobile -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+    >
+      <span class="fa fa-bars"></span>
+      <span class="fa fa-bars"></span>
+      <span class="fa fa-bars"></span>
+    </button>
+    <!-- Main Navigation Links -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ms-auto py-0">
+        {% for menu in site.menus %}
+        <li>
+          <a class="nav-item nav-link" href="{{ site.baseurl }}{{ menu.link }}">{{ menu.title }}
+            {% if menu.submenus %}
+            <i class="fa fa-angle-down"></i></a>
+            <!-- Dropdown Submenu -->
+            <ul class="dropdown-menu m-0">
+              {% for submenu in menu.submenus %}
+                <li><a href="{{site.baseurl}}{{ submenu.link }}" class="dropdown-item">{{ submenu.title }}</a></li>
+              {% endfor %}
+            </ul>
+            {% else %}
+            </a>
+            {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</div>
+<!-- =========================
+     END MAIN NAVBAR SECTION
+========================= -->
+
+<!-- 
+  The following sections are commented out legacy or alternative header/nav implementations.
+  They are kept for reference or future use.
+-->
 <!-- PEMBATAS NEW PATCH -->
 <!-- <div class="first-header">
   <div class="row">
@@ -57,7 +129,7 @@
 <!-- NEW PATCH: HEADER NAVBAR -->
 
 <!-- Navbar & Hero Start -->
-<div class="container-fluid position-relative p-0">
+<!-- <div class="container-fluid position-relative p-0">
   <nav
     class="navbar navbar-expand-lg navbar-light nav-2 px-4 px-lg-5 py-3 py-lg-0"
   >
@@ -66,7 +138,7 @@
         <img src="{{ site.baseurl }}{{ site.logo-navbar }}" id="navbar-logo" alt="logo" style="height: 70px;">
       </h1>
       <!-- <img src="img/logo.png" alt="Logo"> -->
-    </a>
+    <!-- </a>
     <button
       class="navbar-toggler"
       type="button"
@@ -97,7 +169,7 @@
       </ul>
     </div>
   </nav>
-</div>
+</div> -->
 <!-- Navbar & Hero End -->
 <!-- PEMBATAS NEW PATCH -->
 <!-- <header class="top-header">
@@ -147,5 +219,5 @@
       </div> -->
     </div>
   </nav>
-</header>
+</header> -->
 <!-- End header -->
